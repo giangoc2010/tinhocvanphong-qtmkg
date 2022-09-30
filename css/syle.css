@@ -1,0 +1,389 @@
+:root {
+    --color-primary: #0d534c;
+    --color-primary-light: #0f635b;
+    --color-primary-dark: #0a423c;
+    --color-white: #c5c5c5;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 100vh;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #09529f;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+  
+  .logo{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+  }
+  .logo span{
+    color: red;
+  }
+  
+  .navigation ul {
+    list-style: none;
+  }
+  
+  .header .navigation ul li {
+    float: left;
+    position: relative;
+  }
+  
+  .header .navigation ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: all .2s ease;
+  }
+  
+  .header .navigation ul li a:hover {
+    background: #f76e22;
+  }
+  
+  .header .navigation ul li ul {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background: #09529f;
+    display: none;
+  }
+  
+  
+  .header .navigation ul li ul li a {
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  
+  .header .navigation ul li ul li ul {
+    position: absolute;
+    top: 0;
+    right: 300px;
+  }
+  
+  .header .navigation ul li ul li {
+    width: 100%;
+    border-top: 1px solid white;
+  }
+ 
+  .header .navigation ul li:hover > ul {
+    display: initial;
+  }
+  
+  .header .navigation ul li ul li span {
+    float: right;
+    color: var(--color-white);
+    background: var(--color-primary-dark);
+    padding: 5px 10px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  #toggle ,
+  .header label {
+    display: none;
+    cursor: pointer;
+  }
+  
+  img {
+    width: 45px;
+    height: 35px;
+  }
+  .inlign-banner{
+    margin: 0px auto;
+}
+ .inlign-banner img{
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    border-bottom: -4px;
+}
+.one-fourth{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+#lrcd{
+    background-color: #f1aa90;
+}
+#dohoa{
+    background-color: #beb9ad;
+}
+#qtm{
+    background-color: #aadcd2;
+}
+#thvp{
+    background-color: #a2b2c1;
+}
+#lrcy1{
+  background-color: #78c1f6;
+}
+#thvp1{
+  background-color: #78c1f6;
+}
+.one-fourth img{
+    width: 310px;
+    height: 150px;
+}
+h3{
+    font-size: 175%;
+    line-height: 155%;
+    padding: 5% 0;
+    font-weight: 400px;
+    color: #cd1e1e;
+}
+.inner-wrapper1{
+  float: left;
+  width: 100%;
+  background-color: #c3d7df;
+}
+.inner-wrapper3{
+  float: left;
+  width: 100%;
+  background-color: #c3d7df;
+}
+.inner-wrapper4{
+  float: left;
+  width: 100%;
+  background-color: #aadcd2;
+}
+article{
+  float: left;
+  margin: 0px auto;
+  width: 50%;
+  height: auto;
+}
+#introduce{
+  background-color: #c3d7df;
+}
+aside{
+  float: left;
+  margin: 0px auto;
+  width: 50%;
+  height: auto;
+}
+#introduce-2{
+  background-color: #a2b1c1;
+}
+#content{
+  background-color: #beb9ad;
+}
+#synthetic{
+  background-color: #f1aa90;
+}
+.inner-wrapper2{
+  float: left;
+  width: 100%;
+  background-color: #c3d7df;
+}
+h2{
+  font-size: 200%;
+  font-weight: 700px;
+  text-align: center;
+  padding-top: 2%;
+  color: #f5f5f5;
+}
+p{
+  color: #f5f5f5;
+  font-family: 'Alegreya sans', sans-serif;
+  font-size: 160%;
+  line-height: 150%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+.inner-wrapper1 img{
+  max-width: 100%;
+  width: auto;
+  height: 433px;
+  border-bottom: -4px;
+}
+.inner-wrapper2 img{
+  max-width: 100%;
+  width: auto;
+  height: 548px;
+  border-bottom: -4px;
+}
+.inner-wrapper3 img{
+  max-width: 100%;
+  width: auto;
+  height: 300px;
+  margin-left: 140px;
+  border-bottom: -4px;
+}
+.one-third{
+  float: left;
+  width: 33.3333333%;  
+  text-align: center;
+}
+h4{
+  font-size: 175%;
+  line-height: 155%;
+  padding: 5% 0;
+  font-weight: 400px;
+  color: #cd1e1e;
+}
+footer{
+  background-color: #6991ac;
+  width: 100%;
+}
+.social{
+  list-style-type: none;
+  text-align: center;
+}
+.social li{
+  display: inline;
+}
+.social i{
+  font-size: 460%;
+  margin: 1%;
+  padding: 4% 4% 4% 3%;
+  color: #ffffff;
+}
+.social i:hover{
+  color: rgb(118, 210, 249);
+}
+/*Bắt đầu phần nhà thiết kế*/
+footer.second{
+  border-top: 2px solid #aadcd2;
+  background-color: #2b2b39;
+  max-height: 115px;
+  text-align: center;
+  margin: 0px;
+}
+footer.second p{
+  text-align: center;
+  padding: 5px 0 9px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  @media(max-width: 950px) {
+    .header label {
+      display: initial;
+    }
+  
+    .header {
+      padding: 20px 10%;
+    }
+  
+    .header .navigation {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #09529f;
+  
+      display: none;
+    }
+  
+    .header .navigation ul li {
+      width: 100%;
+      border-top: 1px solid white;
+    }
+  
+    .header .navigation ul li a {
+      padding: 8px 30px 8px 10%;
+    }
+  
+    .header .navigation ul li ul {
+      position: relative;
+      width: 100%;
+      left: 0;
+    }
+  
+    .header .navigation ul li ul li {
+      background: var(--color-primary);
+    }
+  
+    .header .navigation ul li ul li ul {
+      position: relative;
+      width: 100%;
+      left: 0;
+    }
+  
+    .header .navigation ul li ul li span {
+      padding: 4px 10px;
+      font-size: 10px;
+    }
+  
+    #toggle:checked ~ .navigation {
+      display: block;
+    }
+  }
+  @media(max-width: 950px){
+    h2{
+      font-size: 150%;
+    }
+    h3{
+      font-size: 125%;
+    }
+    p{
+      font-size: 120%;
+    }
+    header{
+      position: absolute;
+    }
+    #logo{
+      margin: 15px 0 20px -26px;
+    }
+    .banner{
+      padding-top: 86px;
+    }
+    .one-fourth{
+      float: left;
+      width: 100%;
+    }
+    .one-fourth i{
+      font-size: 350%;
+      padding: 4% 0 1% 0;
+    }
+    article{
+      width: 100%;
+    }
+    aside{
+      width: 100%;
+    }
+    .hand_mobile{
+      display: none;
+    }
+    .inner-wrapper1 img{
+      width: 100%;
+      height: auto;
+    }
+    .inner-wrapper2 img{
+      width: 100%;
+      height: auto;
+    }
+    .one-fourth img{
+      width: 100%;
+      height: auto;
+    }
+    .one-third{
+      width: 100%;
+    }
+    .social i{
+      font-size: 100%;
+    }
+  }
